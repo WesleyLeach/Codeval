@@ -1,3 +1,4 @@
+// Dont include package names when submitting to CodeEval
 package main;
 
 import java.io.BufferedReader;
