@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Vector;
 
+import hard.LongestRepeatedString;
 import hard.PALINDROMIC_RANGES;
 
 public class main {
@@ -21,7 +22,7 @@ public class main {
 				inputs.add(lineInput);
 			}
 			br.close();
-			PALINDROMIC_RANGES palindromRange = new PALINDROMIC_RANGES(); 
+			LongestRepeatedString func = new LongestRepeatedString();
 		}
 		catch(FileNotFoundException exception){
 			System.out.println(exception);
