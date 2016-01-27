@@ -1,5 +1,7 @@
 package hard;
 
+import java.util.Vector;
+
 // https://www.codeeval.com/open_challenges/85/
 /*
  
@@ -66,6 +68,10 @@ Print out the nth element of m for each test case e.g.
 12
  
  */
+
+import main.main;
 public class FIND_MIN {
+	
+	Vector<String> Lines = main.inputs;
 
 }
