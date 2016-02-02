@@ -2,6 +2,8 @@ package hard;
 
 import java.util.Vector;
 
+import main.Main;
+
 /*
  * 
  * 
@@ -17,11 +19,10 @@ an
 NONE
  */
 
-import main.main;
 public class LongestRepeatedString {
 
 	public LongestRepeatedString(){
-		Vector<String> Lines = main.inputs;
+		Vector<String> Lines = Main.inputs;
 		Vector<String> possibleStrings = new Vector<String>();
 		for( String Line : Lines){
 			// BRUTE FORCE

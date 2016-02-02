@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-import main.main;
+import main.Main;
+
 
 public class PALINDROMIC_RANGES {
 	
 	public PALINDROMIC_RANGES(){
-		Vector<String> lines = main.inputs;
+		Vector<String> lines = Main.inputs;
 		for( String line : lines){
 			
 			// This will grab the two ranges
