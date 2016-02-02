@@ -1,16 +1,11 @@
-// Dont include package names when submitting to CodeEval
-package main;
+package medium;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Vector;
+import main.Main;
 
+public class fromArabicToRomanNumeral {
 
-public class Main {
-	public static Vector<String> inputs;
-	
+	String[] Symbols = {"M","CM","D","C","XC","L","XL","X","IX","V","I"};
+	int[] values  ={1000,900,500,100,90,50,40,10,9,5,4,1};
 
 	public static void printRomanNumerals(){
 
@@ -90,30 +85,4 @@ public class Main {
 		
 	
 	}
-	
-	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-		try{
-			BufferedReader br = new BufferedReader ( new FileReader (args[0]) );
-			inputs = new Vector<String>(); 
-			String lineInput;
-			while( (lineInput = br.readLine() )!= null){
-				inputs.add(lineInput);
-			}
-			br.close();
-			//Put the function call here
-			printRomanNumerals();
-			
-		}
-		catch(FileNotFoundException exception){
-			System.out.println(exception);
-		}
-		finally{
-			
-		}
-		
-		
-
-	}
-
 }
