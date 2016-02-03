@@ -5,24 +5,48 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.ByteOrder;
-import java.util.Arrays;
+import java.net.URISyntaxException;
 import java.util.Vector;
 
 
 public class Main {
 	public static Vector<String> inputs;
 	
-	public static void identicalURI(){
-		// Sample input delimited by semicolon
-		// http://abc.com:80/~smith/home.html;http://ABC.com/%7Esmith/home.html
+	
+	public static void secondToLast(){
+		String target = null;
+		
 		for(String line : Main.inputs){
-			String[] URIs = line.split(";");
+			String[] words = line.split(",");
+			char[] word = words[1].toCharArray();
+			char[] sentence = words[0].toCharArray();
+			boolean flag = true;
+			
+			if(word.length >= sentence.length){
+				System.out.println("0");
+				break;
+			}
+			
+			for(int x = ( sentence.length-word.length ),y=0; x<sentence.length;x++,y++){
+				if(sentence[x] != word[y]){
+					flag = false;
+				}
+			}
+			
+			if(flag){
+				System.out.println("1");
+			}
+			else{
+				System.out.println("0");
+			}
+			
 		}
-
+		
+		
 	}
 	
-	public static void main(String[] args) throws IOException {
+	
+	public static void main(String[] args) throws IOException, URISyntaxException {
 		// TODO Auto-generated method stub
 		try{
 			BufferedReader br = new BufferedReader ( new FileReader (args[0]) );
@@ -33,6 +57,7 @@ public class Main {
 			}
 			br.close();
 			//Put the function call here
+			secondToLast();
 		
 		}
 		catch(FileNotFoundException exception){

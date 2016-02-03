@@ -1,6 +1,6 @@
 package medium;
 import main.Main;
-public class secondToLastString {
+public class INCOMPELTEsecondToLastString {
 	
 	public static void secondToLast(){
 		String target = null;
