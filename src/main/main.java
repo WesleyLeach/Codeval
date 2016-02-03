@@ -6,53 +6,31 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.Arrays;
 import java.util.Vector;
+import java.util.regex.Pattern;
 
 
 public class Main {
 	public static Vector<String> inputs;
 	
-	
-	public static void secondToLast(){
-		/*
-		 11 index
-		 Hello World,World
-		 Hello CodeEval,CodeEval
-		 San Francisco,San Jose
-		 * 
-		 */
-		
-		
+	public static void simpleSort(){
 		for(String line : Main.inputs){
-			String[] words = line.split(",");
-			char[] sentence = words[0].toCharArray();
-			char[] word = words[1].toCharArray();
-			boolean flag = true;
-			
-			if(word.length >= sentence.length){
-				System.out.println("0");
-				break;
-			}
-			
-			for(int x = ( (sentence.length-1)-(word.length-1) ),y=0; x<sentence.length;x++,y++){
-				if(sentence[x] != word[y]){
-					flag = false;
+			String[] numbers = line.split(" ");
+			double[] number = new double[numbers.length];
+			for(int x=0;x<number.length;x++) number[x] = Double.parseDouble(numbers[x]);
+			Arrays.sort(number);
+			for(int x=0; x<number.length ; x++){
+				if(number.length-1 != x){
+					System.out.print(number [x] +" ");
 				}
+				else
+					System.out.println(number [x]);
 			}
-			
-			if(flag){
-				System.out.println("1");
-			}
-			else{
-				System.out.println("0");
-			}
-			
+
 		}
-		
-		
 	}
-	
-	
+
 	public static void main(String[] args) throws IOException, URISyntaxException {
 		// TODO Auto-generated method stub
 		try{
@@ -64,7 +42,10 @@ public class Main {
 			}
 			br.close();
 			//Put the function call here
-			secondToLast();
+			simpleSort();
+			
+			
+			
 		
 		}
 		catch(FileNotFoundException exception){
