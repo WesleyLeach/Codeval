@@ -14,12 +14,19 @@ public class Main {
 	
 	
 	public static void secondToLast(){
-		String target = null;
+		/*
+		 11 index
+		 Hello World,World
+		 Hello CodeEval,CodeEval
+		 San Francisco,San Jose
+		 * 
+		 */
+		
 		
 		for(String line : Main.inputs){
 			String[] words = line.split(",");
-			char[] word = words[1].toCharArray();
 			char[] sentence = words[0].toCharArray();
+			char[] word = words[1].toCharArray();
 			boolean flag = true;
 			
 			if(word.length >= sentence.length){
@@ -27,7 +34,7 @@ public class Main {
 				break;
 			}
 			
-			for(int x = ( sentence.length-word.length ),y=0; x<sentence.length;x++,y++){
+			for(int x = ( (sentence.length-1)-(word.length-1) ),y=0; x<sentence.length;x++,y++){
 				if(sentence[x] != word[y]){
 					flag = false;
 				}
