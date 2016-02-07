@@ -1,0 +1,6 @@
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeEvalCSharpWork\bin\Debug\CodeEvalCSharpWork.exe.config
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeEvalCSharpWork\bin\Debug\CodeEvalCSharpWork.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeEvalCSharpWork\bin\Debug\CodeEvalCSharpWork.pdb
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeEvalCSharpWork\obj\Debug\CodeEvalCSharpWork.csprojResolveAssemblyReference.cache
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeEvalCSharpWork\obj\Debug\CodeEvalCSharpWork.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeEvalCSharpWork\obj\Debug\CodeEvalCSharpWork.pdb
