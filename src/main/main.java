@@ -8,30 +8,14 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.Arrays;
 import java.util.Vector;
-import java.util.regex.Pattern;
 
 
 public class Main {
 	public static Vector<String> inputs;
 	
-	public static void simpleSort(){
-		for(String line : Main.inputs){
-			String[] numbers = line.split(" ");
-			double[] number = new double[numbers.length];
-			for(int x=0;x<number.length;x++) number[x] = Double.parseDouble(numbers[x]);
-			Arrays.sort(number);
-			for(int x=0; x<number.length ; x++){
-				if(number.length-1 != x){
-					System.out.print(number [x] +" ");
-				}
-				else
-					System.out.println(number [x]);
-			}
+	
 
-		}
-	}
-
-	public static void main(String[] args) throws IOException, URISyntaxException {
+	public static void main(String[] args) throws IOException   {
 		// TODO Auto-generated method stub
 		try{
 			BufferedReader br = new BufferedReader ( new FileReader (args[0]) );
@@ -42,7 +26,7 @@ public class Main {
 			}
 			br.close();
 			//Put the function call here
-			simpleSort();
+			
 			
 			
 			
