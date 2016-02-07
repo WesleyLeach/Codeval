@@ -12,7 +12,7 @@ public class CountingPrimes {
 		
 		// sieve of Ethaosthene 
 		primeLimit = limit;
-		Main.primes = new boolean[primeLimit];
+		primes = new boolean[primeLimit];
 		Arrays.fill(primes, true);
 		for(int x=2; x<=Math.sqrt(primeLimit) ; x++	){
 			if( primes[x] ){
@@ -35,7 +35,7 @@ public class CountingPrimes {
 			int numberOfPrimes=0;
 			for(int x=0; x<= upperBound; x++){
 				
-				if( Main.primes[x] ){
+				if( primes[x] ){
 					if( x <= upperBound &&  x>=lowerBound)
 					numberOfPrimes++;
 				}
