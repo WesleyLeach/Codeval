@@ -1,0 +1,37 @@
+﻿<Properties StartupItem="CodeEvalCSharpWork/CodeEvalCSharpWork.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodeEvalCSharpWork/Program.cs">
+    <Files>
+      <File FileName="CodeEvalCSharpWork/Program.cs" Line="19" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodeEvalCSharpWork" expanded="True">
+            <Node name="CodeEvalCSharpWork" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CodeEvalCSharpWork>
+    <MonoDevelop.Ide.CustomExecutionModes>
+      <Data Name="Passing input.txt" Id="0999169e-05d7-4efc-9a5c-0a3c4e7a7314" ModeId="Default">
+        <CommandData>
+          <Item Key="MonoDevelop.Ide.Execution.CustomArgsCustomizer">
+            <Value Arguments="input.txt" WorkingDirectory="/home/logical/Documents/Github/Codeval/CodeEvalCSharpWork" ctype="CustomArgsExecutionModeData">
+              <EnvironmentVariables />
+            </Value>
+          </Item>
+          <Item Key="MonoDevelop.Ide.Execution.MonoExecutionCustomizer">
+            <Value ctype="MonoExecutionParameters" />
+          </Item>
+        </CommandData>
+      </Data>
+    </MonoDevelop.Ide.CustomExecutionModes>
+  </MonoDevelop.Ide.ItemProperties.CodeEvalCSharpWork>
+</Properties>

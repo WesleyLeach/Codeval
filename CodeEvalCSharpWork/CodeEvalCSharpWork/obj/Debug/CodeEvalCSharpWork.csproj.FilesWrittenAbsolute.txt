@@ -1,0 +1,6 @@
+/home/logical/Documents/Github/Codeval/CodeEvalCSharpWork/CodeEvalCSharpWork/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/logical/Documents/Github/Codeval/CodeEvalCSharpWork/CodeEvalCSharpWork/bin/Debug/CodeEvalCSharpWork.exe.config
+/home/logical/Documents/Github/Codeval/CodeEvalCSharpWork/CodeEvalCSharpWork/bin/Debug/CodeEvalCSharpWork.exe.mdb
+/home/logical/Documents/Github/Codeval/CodeEvalCSharpWork/CodeEvalCSharpWork/bin/Debug/CodeEvalCSharpWork.exe
+/home/logical/Documents/Github/Codeval/CodeEvalCSharpWork/CodeEvalCSharpWork/obj/Debug/CodeEvalCSharpWork.exe
+/home/logical/Documents/Github/Codeval/CodeEvalCSharpWork/CodeEvalCSharpWork/obj/Debug/CodeEvalCSharpWork.exe.mdb
