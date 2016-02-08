@@ -1,24 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 
 namespace CodeEvalCSharpWork
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
+	public class numberPairs
+	{
+		public numberPairs ()
+		{
 
-            try
-            {   // Open the text file using a stream reader.
-                using (StreamReader sr = new StreamReader(args[0]))
-                {
-                    // Read the stream to a string, and write the string to the console.
-                    String line = sr.ReadToEnd();
+			try
+			{   // Open the text file using a stream reader.
+				using (StreamReader sr = new StreamReader(args[0]))
+				{
+					// Read the stream to a string, and write the string to the console.
+					String line = sr.ReadToEnd();
 					String[] lines = line.Split('\n');
 					foreach( String singleLine in lines){
 						//Console.WriteLine (singleLine);
@@ -56,14 +50,15 @@ namespace CodeEvalCSharpWork
 						if(outputs.Count != 0)Console.WriteLine ();
 						else Console.WriteLine ("NULL");
 					}
-                }
-            }
-		
-            catch (Exception e)
-            {
-                Console.WriteLine("The file could not be read:");
-                Console.WriteLine(e.Message);
-            }
-        }
-    }
+				}
+			}
+
+			catch (Exception e)
+			{
+				Console.WriteLine("The file could not be read:");
+				Console.WriteLine(e.Message);
+			}
+		}
+	}
 }
+

@@ -2,13 +2,16 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CodeEvalCSharpWork/Program.cs">
     <Files>
-      <File FileName="CodeEvalCSharpWork/Program.cs" Line="19" Column="44" />
+      <File FileName="CodeEvalCSharpWork/Program.cs" Line="39" Column="19" />
+      <File FileName="CodeEvalCSharpWork/input" Line="3" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CodeEvalCSharpWork" expanded="True">
-            <Node name="CodeEvalCSharpWork" expanded="True" selected="True" />
+            <Node name="CodeEvalCSharpWork" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -23,7 +26,7 @@
       <Data Name="Passing input.txt" Id="0999169e-05d7-4efc-9a5c-0a3c4e7a7314" ModeId="Default">
         <CommandData>
           <Item Key="MonoDevelop.Ide.Execution.CustomArgsCustomizer">
-            <Value Arguments="input.txt" WorkingDirectory="/home/logical/Documents/Github/Codeval/CodeEvalCSharpWork" ctype="CustomArgsExecutionModeData">
+            <Value Arguments="input" WorkingDirectory="/home/logical/Documents/Github/Codeval/CodeEvalCSharpWork/CodeEvalCSharpWork" ctype="CustomArgsExecutionModeData">
               <EnvironmentVariables />
             </Value>
           </Item>
