@@ -27,23 +27,16 @@ public class Main {
 			//     na	ba				    an
 			//      a	b
 			Vector<String> subStrings = new Vector<String>();
-			String lineSaver = Line;
-			
-			// Goes to the right
-			
-			Line = lineSaver;
-			char[] temp = Line.toCharArray();
-			for (int x =0; x< Line.length(); x++){
-				// removes the first element and adds the remainder to the Vector
-				
+
+			for( int x=0 ; x < Line.length() ; x++){
+				for( int i=0; i< Line.length(); i ++){
+					String sub = Line.substring(x, x+i);
+					subStrings.add(sub);
+				}
 			}
 			
-			
-			
-			for (String output : subStrings) 
-				if( !output.equals(null) )System.out.println(output);
-			
 		}
+			
 		
 		
 	}
