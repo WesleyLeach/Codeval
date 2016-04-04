@@ -10,6 +10,8 @@ namespace CodeEvalCSharpWork
 {
     class Program
     {
+
+
         static void Main(string[] args)
         {
 
@@ -20,41 +22,29 @@ namespace CodeEvalCSharpWork
                     // Read the stream to a string, and write the string to the console.
                     String line = sr.ReadToEnd();
 					String[] lines = line.Split('\n');
+					int[,] IntArray= new int[256,256];
 					foreach( String singleLine in lines){
-						//Console.WriteLine (singleLine);
-						// Where you start processing each line
-						//Console.WriteLine ("Got to 24");
-						// splits target and inputs
-						String[] twoParts = singleLine.Split (';');
+						// START OF MAIN LOOP
+						String[] parts = singleLine.Split(' ');
+						if(parts[0]=="SetCol"){
+							for(int i=0;i<256;i++)IntArray[i,Int32.Parse(parts[1])] = Int32.Parse(parts[2]);
+						}
+						else if(parts[0]=="SetRow"){
+							for(int i=0;i<256;i++)IntArray[Int32.Parse(parts[1]), i] = Int32.Parse(parts[2]);
+						}
+						else if(parts[0]=="QueryCol"){
+							int temp=0;
+							for(int i=0;i<256;i++)temp += IntArray[i, Int32.Parse(parts[1])];
+							Console.WriteLine(temp);
+						}
+						else if(parts[0]=="QueryRow"){
+							int temp=0;
+							for(int i=0;i<256;i++)temp += IntArray[Int32.Parse(parts[1]), i];
+							Console.WriteLine(temp);
+						}
 
-						String[] numberLines = twoParts[0].Split(',');
-						//Console.WriteLine (numberLines[0]);
-						int[] numbers = new int[ numberLines.Length];
-						int target = int.Parse (twoParts[1]);
-						//Console.WriteLine ("Got to 28");
-						// Fills the numbers array
-						for(int x=0; x < numbers.Length; x++){
-							numbers[x] = int.Parse (numberLines[x]);
-						}
-						// Arrays filled, time to start building a list of pairs
-						int  temp=0;
-						//Console.WriteLine ("Got to 34");
-						List<String> outputs = new List<String>();
-						for(int x=0; x<numbers.Length;x++){
-							temp=numbers[x];
-							for(int i=x+1; i<numbers.Length;i++){
-								if( temp + numbers[i] == target){
-									outputs.Add (numbers[x] +","+numbers[i]);
-								}
-							}
-						}
-						//Console.WriteLine ("Got to 49");
-						foreach(String print in outputs){
-							if(print != outputs.Last ())Console.Write(print+";");
-							else Console.Write (print);
-						}
-						if(outputs.Count != 0)Console.WriteLine ();
-						else Console.WriteLine ("NULL");
+
+						// END OF MAIN LOOP
 					}
                 }
             }
@@ -65,5 +55,5 @@ namespace CodeEvalCSharpWork
                 Console.WriteLine(e.Message);
             }
         }
-    }
+	}
 }

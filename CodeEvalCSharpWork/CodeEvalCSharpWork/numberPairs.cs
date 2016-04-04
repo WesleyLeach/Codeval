@@ -1,4 +1,6 @@
-﻿using System;
+﻿/*
+using System;
+using System.IO;
 
 namespace CodeEvalCSharpWork
 {
@@ -61,4 +63,4 @@ namespace CodeEvalCSharpWork
 		}
 	}
 }
-
+*/
