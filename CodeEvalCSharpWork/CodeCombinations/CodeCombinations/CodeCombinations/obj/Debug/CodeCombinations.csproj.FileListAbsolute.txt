@@ -1,0 +1,6 @@
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeCombinations\CodeCombinations\CodeCombinations\bin\Debug\CodeCombinations.exe.config
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeCombinations\CodeCombinations\CodeCombinations\bin\Debug\CodeCombinations.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeCombinations\CodeCombinations\CodeCombinations\bin\Debug\CodeCombinations.pdb
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeCombinations\CodeCombinations\CodeCombinations\obj\Debug\CodeCombinations.csprojResolveAssemblyReference.cache
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeCombinations\CodeCombinations\CodeCombinations\obj\Debug\CodeCombinations.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodeCombinations\CodeCombinations\CodeCombinations\obj\Debug\CodeCombinations.pdb
