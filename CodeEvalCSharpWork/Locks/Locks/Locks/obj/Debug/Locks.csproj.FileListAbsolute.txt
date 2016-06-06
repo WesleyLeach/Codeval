@@ -1,0 +1,6 @@
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\Locks\Locks\Locks\bin\Debug\Locks.exe.config
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\Locks\Locks\Locks\obj\Debug\Locks.csprojResolveAssemblyReference.cache
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\Locks\Locks\Locks\bin\Debug\Locks.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\Locks\Locks\Locks\bin\Debug\Locks.pdb
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\Locks\Locks\Locks\obj\Debug\Locks.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\Locks\Locks\Locks\obj\Debug\Locks.pdb

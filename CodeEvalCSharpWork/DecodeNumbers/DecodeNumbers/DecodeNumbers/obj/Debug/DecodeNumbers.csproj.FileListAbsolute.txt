@@ -1,0 +1,6 @@
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\DecodeNumbers\DecodeNumbers\DecodeNumbers\bin\Debug\DecodeNumbers.exe.config
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\DecodeNumbers\DecodeNumbers\DecodeNumbers\bin\Debug\DecodeNumbers.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\DecodeNumbers\DecodeNumbers\DecodeNumbers\bin\Debug\DecodeNumbers.pdb
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\DecodeNumbers\DecodeNumbers\DecodeNumbers\obj\Debug\DecodeNumbers.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\DecodeNumbers\DecodeNumbers\DecodeNumbers\obj\Debug\DecodeNumbers.pdb
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\DecodeNumbers\DecodeNumbers\DecodeNumbers\obj\Debug\DecodeNumbers.csprojResolveAssemblyReference.cache
