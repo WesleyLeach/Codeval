@@ -1,1 +1,6 @@
 C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodelTranslation\CodelTranslation\CodelTranslation\bin\Debug\CodelTranslation.exe.config
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodelTranslation\CodelTranslation\CodelTranslation\bin\Debug\CodelTranslation.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodelTranslation\CodelTranslation\CodelTranslation\bin\Debug\CodelTranslation.pdb
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodelTranslation\CodelTranslation\CodelTranslation\obj\Debug\CodelTranslation.csprojResolveAssemblyReference.cache
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodelTranslation\CodelTranslation\CodelTranslation\obj\Debug\CodelTranslation.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\CodelTranslation\CodelTranslation\CodelTranslation\obj\Debug\CodelTranslation.pdb
