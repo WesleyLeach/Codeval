@@ -1,0 +1,6 @@
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\EmailValidation\EmailValidation\EmailValidation\bin\Debug\EmailValidation.exe.config
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\EmailValidation\EmailValidation\EmailValidation\bin\Debug\EmailValidation.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\EmailValidation\EmailValidation\EmailValidation\bin\Debug\EmailValidation.pdb
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\EmailValidation\EmailValidation\EmailValidation\obj\Debug\EmailValidation.csprojResolveAssemblyReference.cache
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\EmailValidation\EmailValidation\EmailValidation\obj\Debug\EmailValidation.exe
+C:\Users\Magus\Documents\GitHub\Codeval\CodeEvalCSharpWork\EmailValidation\EmailValidation\EmailValidation\obj\Debug\EmailValidation.pdb
